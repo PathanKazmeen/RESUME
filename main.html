@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OG Worls - Digital Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 20px 40px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffd5;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-top: 5px;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00ffd5;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .service {
+      flex: 1 1 250px;
+      background-color: #1a1a1a;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 213, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .service:hover {
+      transform: translateY(-5px);
+    }
+
+    .service h3 {
+      color: #00ffd5;
+      margin-bottom: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .contact {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #00ffd5;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media(max-width: 768px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OG Worls</h1>
+    <p>Your One Stop Digital Branding Agency</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Us</h2>
+    <p>We help businesses and creators shine online by crafting stunning visuals, engaging content, and powerful websites. Whether you need a scroll-stopping reel, a bold new logo, or a complete digital strategy — we’ve got you covered.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>🎨 Logo Design</h3>
+        <p>Custom logos that define your brand's identity and leave a lasting impression.</p>
+      </div>
+      <div class="service">
+        <h3>🖼 Thumbnail Creation</h3>
+        <p>Eye-catching thumbnails designed for YouTube and Instagram that drive clicks.</p>
+      </div>
+      <div class="service">
+        <h3>✍ Script Writing</h3>
+        <p>Engaging scripts tailored for your content needs, from reels to YouTube videos.</p>
+      </div>
+      <div class="service">
+        <h3>📱 Account Management</h3>
+        <p>Full social media management with content calendars, growth strategies, and DMs.</p>
+      </div>
+      <div class="service">
+        <h3>🎬 High-Interaction Edits</h3>
+        <p>Fast-paced, trendy video edits perfect for viral reels and shorts.</p>
+      </div>
+      <div class="service">
+        <h3>🌐 Website Development</h3>
+        <p>Clean, modern websites built for speed, SEO, and user experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Portfolio</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/250x150?text=Logo+1" alt="Portfolio item" />
+      <img src="https://via.placeholder.com/250x150?text=Thumbnail+2" alt="Portfolio item" />
+      <img src="https://via.placeholder.com/250x150?text=Video+Edit+3" alt="Portfolio item" />
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact">
+      <p>Let’s work together! Reach us at:</p>
+      <a href="mailto:ogworlsagency@gmail.com">ogworlsagency@gmail.com</a> |
+      <a href="https://instagram.com/ogworls" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 OG Worls. All rights reserved.
+  </footer>
+</body>
+</html>
